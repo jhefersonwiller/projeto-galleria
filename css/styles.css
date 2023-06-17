@@ -128,7 +128,7 @@
     color: #000;
 }
 .gallery #card-1 {
-    background-image: url(/img/animais.jpg);
+    background-image: url(../img/animais.jpg);
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -139,10 +139,10 @@
     filter: grayscale(0);
     background-size: 110%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url(/img/animais.jpg);
+        url(../img/animais.jpg);
 }
 .gallery #card-2 {
-    background-image: url(/img/arquitetura.jpg);
+    background-image: url(../img/arquitetura.jpg);
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -153,10 +153,10 @@
     filter: grayscale(0);
     background-size: 110%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url(/img/arquitetura.jpg);
+        url(../img/arquitetura.jpg);
 }
 .gallery #card-3 {
-    background-image: url(/img/cidade.jpg);
+    background-image: url(../img/cidade.jpg);
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -167,10 +167,10 @@
     filter: grayscale(0);
     background-size: 110%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url(/img/cidade.jpg);
+        url(../img/cidade.jpg);
 }
 .gallery #card-4 {
-    background-image: url(/img/decoracao.jpg);
+    background-image: url(../img/decoracao.jpg);
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -181,10 +181,10 @@
     filter: grayscale(0);
     background-size: 110%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url(/img/decoracao.jpg);
+        url(../img/decoracao.jpg);
 }
 .gallery #card-5 {
-    background-image: url(/img/esportes.jpg);
+    background-image: url(../img/esportes.jpg);
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -195,10 +195,10 @@
     filter: grayscale(0);
     background-size: 110%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url(/img/esportes.jpg);
+        url(../img/esportes.jpg);
 }
 .gallery #card-6 {
-    background-image: url(/img/natureza.jpg);
+    background-image: url(../img/natureza.jpg);
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -209,10 +209,10 @@
     filter: grayscale(0);
     background-size: 110%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url(/img/natureza.jpg);
+        url(../img/natureza.jpg);
 }
 .gallery #card-7 {
-    background-image: url(/img/paisagem.jpg);
+    background-image: url(../img/paisagem.jpg);
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -223,10 +223,10 @@
     filter: grayscale(0);
     background-size: 110%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url(/img/paisagem.jpg);
+        url(../img/paisagem.jpg);
 }
 .gallery #card-8 {
-    background-image: url(/img/pessoas.jpg);
+    background-image: url(../img/pessoas.jpg);
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -237,10 +237,10 @@
     filter: grayscale(0);
     background-size: 110%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url(/img/pessoas.jpg);
+        url(../img/pessoas.jpg);
 }
 .gallery #card-9 {
-    background-image: url(/img/refeicoes.jpg);
+    background-image: url(../img/refeicoes.jpg);
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -251,7 +251,7 @@
     filter: grayscale(0);
     background-size: 110%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-        url(/img/refeicoes.jpg);
+        url(../img/refeicoes.jpg);
 }
 
 footer {
