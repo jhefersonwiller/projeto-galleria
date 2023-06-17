@@ -1,0 +1,184 @@
+@use "variables";
+@use "mixins";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    body {
+        font-family: "Josefin Sans";
+        background-color: variables.$bg-color;
+        color: variables.$text-color;
+
+        a {
+            color: variables.$text-color;
+            text-decoration: none;
+            transition: 400ms;
+        }
+
+        ul {
+            list-style: none;
+        }
+    }
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    @include mixins.container;
+
+    @include mixins.mobile {
+        padding: 1.1rem;
+        flex-wrap: wrap;
+    }
+
+    &-brand {
+        color: variables.$primary-color;
+        font-size: 3rem;
+    }
+
+    &-navbar {
+        ul {
+            height: 100%;
+            @include mixins.flex-center;
+
+            @include mixins.mobile {
+                padding: 1rem 0;
+                margin-bottom: 1.5rem;
+                flex-wrap: wrap;
+                justify-content: flex-start;
+            }
+
+            li {
+                margin: 0 0.8rem;
+                font-size: 1.25rem;
+
+                .active {
+                    color: variables.$secondary-color;
+                }
+
+                a {
+                    &:hover {
+                        color: variables.$secondary-color;
+                    }
+                }
+            }
+        }
+    }
+
+    &-social-media {
+        ul {
+            height: 100%;
+            @include mixins.flex-center;
+            @include mixins.mobile {
+                margin-bottom: 1rem;
+                flex-wrap: wrap;
+            }
+
+            li {
+                margin: 0 1rem;
+                font-size: 1.5rem;
+
+                a {
+                    &:hover {
+                        color: variables.$primary-color;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.gallery {
+    @include mixins.container;
+    @include mixins.flex-center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;
+
+    @include mixins.mobile {
+        flex-direction: column;
+    }
+
+    &-card {
+        width: 31%;
+        height: 400px;
+        margin-bottom: 4%;
+        @include mixins.flex-center;
+        flex-direction: column;
+        color: variables.$primary-color;
+        border: 2px solid variables.$primary-color;
+
+        @include mixins.mobile {
+            width: 90%;
+            margin-bottom: 6%;
+        }
+
+        &-title {
+            font-size: 2rem;
+            font-weight: 400;
+            margin-bottom: 1rem;
+        }
+
+        &-btn {
+            border: 2px solid variables.$primary-color;
+            padding: 0.6rem 2rem;
+            color: variables.$primary-color;
+            letter-spacing: 1px;
+            font-variant: small-caps;
+
+            &:hover {
+                background: variables.$primary-color;
+                color: variables.$bg-color;
+            }
+        }
+    }
+
+    #card-1 {
+        @include mixins.bg-img("animais.jpg");
+    }
+
+    #card-2 {
+        @include mixins.bg-img("arquitetura.jpg");
+    }
+
+    #card-3 {
+        @include mixins.bg-img("cidade.jpg");
+    }
+
+    #card-4 {
+        @include mixins.bg-img("decoracao.jpg");
+    }
+
+    #card-5 {
+        @include mixins.bg-img("esportes.jpg");
+    }
+
+    #card-6 {
+        @include mixins.bg-img("natureza.jpg");
+    }
+
+    #card-7 {
+        @include mixins.bg-img("paisagem.jpg");
+    }
+
+    #card-8 {
+        @include mixins.bg-img("pessoas.jpg");
+    }
+
+    #card-9 {
+        @include mixins.bg-img("refeicoes.jpg");
+    }
+}
+
+footer {
+    text-align: center;
+    padding-bottom: 2rem;
+    font-size: 1.2rem;
+
+    span {
+        color: variables.$secondary-color;
+        font-weight: 700;
+    }
+}
